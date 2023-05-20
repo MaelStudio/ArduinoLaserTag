@@ -1,7 +1,7 @@
 # Arduino Laser Tag
 
 J'ai fabriqué un système de Laser Tag à la maison avec des Arduino et du carton !
-Si vous voulez en savoir plus sur le projet, allez voir ma [vidéo](https://youtu.be/UTCy1lHb7iQ) dessus.
+Si vous voulez en savoir plus sur le projet, allez voir ma [vidéo](https://youtu.be/cMQ6hUuC03o) dessus.
 
 
 Le code utilise la librairie [IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) pour la communication infrarouge.
