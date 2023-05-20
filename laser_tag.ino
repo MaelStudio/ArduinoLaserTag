@@ -2,7 +2,7 @@
 
 // CONFIG: MODIFY VALUES TO FIT PLAY STYLE
 const int maxHealth = 10; // maximum health points
-const int maxAmmo = 5; // maxiumum ammunition count (max is 9)
+const int maxAmmo = 5; // maximum ammunition count (max is 9)
 const int shootCooldown = 500; // interval between each shot (in ms)
 const int reloadTime = 1600; // time it takes to reload the gun (in ms)
 const int resetTime = 500; // time the reset button has to be pressed to reset (in ms)
@@ -20,6 +20,12 @@ byte redPin = 11;
 byte greenPin = 5;
 byte bluePin = 10;
 byte pinsSegments[7] = {A0, A1, A2, A3, A4, A5, 12};
+
+// IR communication
+IRsend irsend; // setup IR transmitter
+IRrecv irrecv(receiverPin); // IR receiver
+decode_results results; // results variable
+const unsigned long irSendHex = 0xFFA25D; // define hex value to send
 
 // arrays of digits for 7 segment display
 const bool digits[10][7] = {
@@ -74,12 +80,6 @@ const int melodyInterval = 150;
 const int shootSoundStartTone = 1000;
 const int shootSoundEndTone = 700;
 const int shootSoundInterval = 1;
-
-// IR communication
-IRsend irsend; // setup IR transmitter
-IRrecv irrecv(receiverPin); // IR receiver
-decode_results results; // results variable
-const unsigned long irSendHex = 0xFFA25D; // define hex value to send
 
 // other variables
 int health = maxHealth;
