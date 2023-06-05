@@ -1,31 +1,31 @@
 # Arduino Laser Tag
 
-J'ai fabriqué un système de Laser Tag à la maison avec des Arduino et du carton !
-Si vous voulez en savoir plus sur le projet, allez voir ma [vidéo](https://youtu.be/cMQ6hUuC03o) dessus.
+I created Laser Tag guns at home with Arduino and cardboard!
+If you want to know more about the project, go check out my [video](https://youtu.be/cMQ6hUuC03o) about it (in French, with subtitles).
 
 
-Le code utilise la librairie [IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) pour la communication infrarouge.
+The code uses the [IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) library for infrared communication.
 
-## Matériel
+## Material
 
-- 1x Arduino UNO : *contrôle tout*
-- 3x Boutons : *pour tirer, recharger et recommencer une partie*
-- 1x DEL IR : *envoie le signal infrarouge*
-- 1x Récepteur IR : *reçoit le signal infrarouge*
-- 2x DELs colorées : *indique quand on se fait tirer dessus*
-- 1x DEL RGB : *affiche nos points de vie*
-- 1x Buzzer piezo : *joue des effets sonores*
-- 1x Affichage à 7 segments : *affiche nos munitions*
-- 1x Interrupteur : *pour allumer/éteindre le pistolet*
-- 1x Batterie 9V : *alimente le projet*
-- 1x Lentille convexe : *concentre le rayon de lumière IR*
-- Du carton
+- 1x Arduino UNO : *controls everything*
+- 3x Push buttons : *to shoot, reload and restart the game*
+- 1x IR LED: *sends the infrared signal*
+- 1x IR receiver : *receives the infrared signal*
+- 2x Colored LEDs : *indicate when we get shot and also look cool*
+- 1x RGB LED : *displays our health points*
+- 1x Passive buzzer : *plays sound effects*
+- 1x 7-segment display : *displays our ammo counter*
+- 1x On/off switch : *to turn the gun on and off*
+- 1x 9V battery : *powers the gun*
+- 1x Convex lens : *focuses the infrared light to increase range and accuracy*
+- Cardboard
 
 ## Photos
-![Deux pistolets laser](img/guns.jpg)
-![L'intérieur d'un pistolet laser](img/inside.jpg)
-![Plan des pistolets](img/sketch.jpg)
+![Two laser guns](img/guns.jpg)
+![The inside of a gun](img/inside.jpg)
+![Gun sketch](img/sketch.jpg)
 
-## Montage
+## Wiring
 
-![Montage électrique](img/wiring.png)
+![Wiring](img/wiring.png)
