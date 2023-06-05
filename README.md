@@ -12,7 +12,7 @@ The code uses the [IRremote](https://github.com/Arduino-IRremote/Arduino-IRremot
 - 3x Push buttons : *to shoot, reload and restart the game*
 - 1x IR LED: *sends the infrared signal*
 - 1x IR receiver : *receives the infrared signal*
-- 2x Colored LEDs : *indicate when we get shot and also look cool*
+- 2x Colored LEDs : *indicates when we get shot and also looks cool*
 - 1x RGB LED : *displays our health points*
 - 1x Passive buzzer : *plays sound effects*
 - 1x 7-segment display : *displays our ammo counter*
